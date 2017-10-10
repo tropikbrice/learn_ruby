@@ -79,10 +79,17 @@ end
 
 describe "#multiply" do
 
-  it "multiplies two numbers"
+  it "multiplies two numbers 2 et 3 " do 
+    expect( multiply(2,3) ).to eq (6)
+  end
+    
+  it "multiplies two numbers 2.5 et 3.5 " do 
+    expect( multiply(2.5,3.5) ).to eq (8.75)
+  end
+    
 
-  it "multiplies several numbers"
-  
+  it "multiplies several numbers: [2,3,4]"
+  expect( multiply([2,3,4]).to eq (24)  
 end
 
 describe "#power" do
